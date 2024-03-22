@@ -33,3 +33,15 @@ console.log(total);
 // doing the same this 
 const total2 = people.reduce((accumulator, currentvalue) => accumulator + currentvalue.age, 0);
 console.log(total2);
+
+
+
+const nums1 = [1, 2, 3, 4, 5];
+let output1 = nums1.filter(n=> n%2 !== 0);
+console.log(output1);
+
+const nums2 = [1, 2, 3, 4, 5];
+let output2 = nums2.filter(n=> n%2);
+console.log(output2);
+
+/* Both the code is giving same result because in JS a value that is not 0 defines boolean true */
