@@ -20,7 +20,7 @@ const types =  true;
 
 // Non Primitive
 const ages = [12,10,13,18,16];
-const student = {name:"Saymon Shuvro", class:"Three", id: 058746};
+const student = {name:"Saymon Shuvro", class:"Three", id: 58746};
 
 console.log(typeof a, typeof b, typeof types, typeof ages, typeof student);
 console.log(Array.isArray(ages));
